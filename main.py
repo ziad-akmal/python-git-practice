@@ -32,7 +32,7 @@ def quiz_start():
 
             corr_ans_index += 1
 
-        print(f"Your final score is ({score}/15).")
+        print(f"Your final score is ({score}/{num_of_qustions}).")
 
         try_again = input("Do you want to try again? type 'y' for yes or 'n' for no.\n").strip().lower()
 
