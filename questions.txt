@@ -94,3 +94,11 @@ Choose the correct answer by typing one of the following letters in the terminal
  b) def
  c) func
  d) define
+
+16. What does the following block of code print?
+	for i in range(3):
+		print(i, end="")
+ a) 1 2 3
+ b) 0 1 2
+ c) 3 2 1
+ d) 2 1 0

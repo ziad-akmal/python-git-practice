@@ -1,6 +1,7 @@
 options_list = ['a', 'b', 'c', 'd']
 yes_no_list = ['y' , 'n']
-answers_list = ['a', 'c', 'b', 'b', 'd', 'c', 'b', 'b', 'a', 'c', 'c', 'b', 'c', 'd', 'b']
+answers_list = ['a', 'c', 'b', 'b', 'd', 'c', 'b', 'b', 'a', 'c', 'c', 'b', 'c', 'd', 'b','b']
+num_of_qustions = 16
 
 def quiz_start():
     score = 0
@@ -10,7 +11,7 @@ def quiz_start():
         my_questions_file.readline()
         my_questions_file.readline()
 
-        for i in range(15):
+        for i in range(num_of_qustions):
             question_lines = []
             line = my_questions_file.readline()
 
