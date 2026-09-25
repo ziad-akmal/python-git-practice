@@ -7,7 +7,7 @@ def quiz_start():
     score = 0
     corr_ans_index = 0
 
-    with open(r"C:\Users\DELL\OneDrive\Desktop\question_manager\questions.txt","r") as my_questions_file:
+    with open("questions.txt", "r", encoding="utf-8") as my_questions_file:
         my_questions_file.readline()
         my_questions_file.readline()
 
@@ -44,7 +44,7 @@ def quiz_start():
 
 
 # Printing the 2-line intro.
-with open(r"C:\Users\DELL\OneDrive\Desktop\question_manager\questions.txt","r") as my_questions_file:
+with open("questions.txt", "r", encoding="utf-8") as my_questions_file:
 
     for i in range(2):
         print(my_questions_file.readline(), end="")
