@@ -40,3 +40,11 @@ The main goal of this project was not only to build a simple Python program, but
 ```bash
 python main.py
 ```
+
+## Getting the Project
+
+1. Click the green **Code** button on this GitHub repository.
+2. Click **Download ZIP**.
+3. Extract the ZIP file.
+4. Open the extracted project folder.
+5. Follow the steps in **How to Run**.
