@@ -1,7 +1,7 @@
 options_list = ['a', 'b', 'c', 'd']
 yes_no_list = ['y' , 'n']
-answers_list = ['a', 'c', 'b', 'b', 'd', 'c', 'b', 'b', 'a', 'c', 'c', 'b', 'c', 'd', 'b','b']
-num_of_qustions = 15
+answers_list = ['a', 'c', 'b', 'b', 'd', 'c', 'b', 'b', 'a', 'c', 'c', 'b', 'c', 'd', 'b']
+num_of_questions = len(answers_list)
 
 def quiz_start():
     score = 0
@@ -11,7 +11,7 @@ def quiz_start():
         my_questions_file.readline()
         my_questions_file.readline()
 
-        for i in range(num_of_qustions):
+        for i in range(num_of_questions):
             question_lines = []
             line = my_questions_file.readline()
 
@@ -32,7 +32,7 @@ def quiz_start():
 
             corr_ans_index += 1
 
-        print(f"Your final score is ({score}/{num_of_qustions}).")
+        print(f"Your final score is ({score}/{num_of_questions}).")
 
         try_again = input("Do you want to try again? type 'y' for yes or 'n' for no.\n").strip().lower()
 
