@@ -29,6 +29,14 @@ The main goal of this project was not only to build a simple Python program, but
 
 * Python
 * Git
-* Github
-Hub
+* GitHub
 
+## How to Run
+
+1. Make sure Python is installed.
+2. Open a terminal in the project directory.
+3. Run:
+
+```bash
+python main.py
+```
